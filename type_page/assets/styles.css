@@ -1,13 +1,27 @@
 /* style the main body of the document */
 body {
+  font-family: ff-meta-web-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
   background-color: rgb(141, 166, 213);
 }
 p::first-letter {
   float: left;
-  line-height: 70%;
-  font-size: 45px;
+  line-height: 75%;
+  font-size: 53px;
   font-weight: bold;
   padding-top: 4px;
+}
+.center {
+  margin: auto;
+  width: 60%
+}
+.right {
+  float: right;
+  width: 60%;
+}
+.left {
+  width: 60%;
 }
 .one {
   font-size: 17px;
@@ -23,7 +37,7 @@ p::first-letter {
 }
 /* style the headings */
 h1 {
-  font-size: 50px;
+  font-size: 65px;
   letter-spacing: 5px;
   align-items: center;
   text-align: center;
