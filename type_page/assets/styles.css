@@ -1,9 +1,16 @@
 /* style the main body of the document */
 body {
   font-family: ff-meta-web-pro, sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-weight: 400;
+  font-style: normal;
   background-color: rgb(8, 63, 166);
+}
+.container {
+  background-image: url(90s-website-style.png);
+  background-repeat: no-repeat;
+  width: 90%;
+  border: 2px double white;
+  margin-left: 4.7%;
 }
 p::first-letter {
   float: left;
@@ -17,7 +24,7 @@ p::first-letter {
   width: 50%
 }
 .right {
-  margin-right: 10%;
+  margin-right: 13%;
   float: right;
   width: 50%;
 }
@@ -34,7 +41,7 @@ p::first-letter {
   -webkit-text-stroke-color: white;
 }
 .left {
-  margin-left: 10%;
+  margin-left: 13%;
   width: 50%;
 }
 .one {
