@@ -11,6 +11,7 @@ body {
   width: 1310px;
   border: 2px double white;
   margin-left: 4.7%;
+  background-position: center;
 }
 p::first-letter {
   float: left;
@@ -40,6 +41,28 @@ p::first-letter {
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
 }
+.q1 {
+  position: absolute;
+  font-family: ff-meta-web-pro, sans-serif;
+  font-size: 120pt;
+  font-weight: 900;
+  color: #98f054;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  top: 460px;
+  left: 11%;
+}
+.q2{
+  position: absolute;
+  font-family: ff-meta-web-pro, sans-serif;
+  font-size: 120pt;
+  font-weight: 900;
+  color: #98f054;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  right: 11%;
+  top: 460px;
+}
 .left {
   margin-left: 13%;
   width: 50%;
@@ -50,6 +73,7 @@ p::first-letter {
   color: white;
 }
 .two {
+  font-family: ff-meta-web-pro, sans-serif;
   font-size: 20px;
   text-align: left;
   color: #98f054;
