@@ -12,6 +12,7 @@ body {
   border: 2px double white;
   margin-left: 4.7%;
   background-position: center;
+  height: 90%;
 }
 p::first-letter {
   float: left;
