@@ -8,11 +8,11 @@ body {
 .container {
   background-image: url(90s-website-style.png);
   background-repeat: no-repeat;
-  width: 1310px;
+  width: 90%;
   border: 2px double white;
-  margin-left: 4.7%;
   background-position: center;
   height: 90%;
+  margin: auto;
 }
 p::first-letter {
   float: left;
