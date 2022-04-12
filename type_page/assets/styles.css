@@ -11,7 +11,6 @@ body {
   width: 90%;
   border: 2px double white;
   background-position: center;
-  height: 90%;
   margin: auto;
 }
 p::first-letter {
@@ -33,9 +32,9 @@ p::first-letter {
 .dolla {
   position: absolute;
   right: 15%;
-  top: 255px;
+  top: 260px;
   font-family: ff-meta-web-pro, sans-serif;
-  font-size: 120pt;
+  font-size: 115pt;
   font-weight: 900;
   font-style: normal;
   color: #98f054;
@@ -78,6 +77,8 @@ p::first-letter {
   font-size: 20px;
   text-align: left;
   color: #98f054;
+  border: 2px solid white;
+  background-color: rgb(45, 44, 44);
 }
 .three {
   font-size: 20px;
@@ -104,7 +105,7 @@ h1 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   height: 75px;
-  top: -20px;
+  top: -40px;
 }
 h1 span {
   background: linear-gradient(to right,
