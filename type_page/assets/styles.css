@@ -29,15 +29,27 @@ p::first-letter {
   float: right;
   width: 50%;
 }
+.que {
+  position: absolute;
+  left: 1%;
+  top: 270px;
+  font-family: ff-meta-web-pro, sans-serif;
+  font-size: 130pt;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(8, 63, 166);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
 .dolla {
   position: absolute;
-  right: 15%;
+  right: 1%;
   top: 270px;
   font-family: ff-meta-web-pro, sans-serif;
   font-size: 115pt;
   font-weight: 900;
   font-style: normal;
-  color: #98f054;
+  color: rgb(8, 63, 166);
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
 }
@@ -62,6 +74,30 @@ p::first-letter {
   -webkit-text-stroke-color: white;
   right: 11%;
   top: 460px;
+}
+.exc{
+  position: absolute;
+  right: 3%;
+  top: 710px;
+  font-family: ff-meta-web-pro, sans-serif;
+  font-size: 115pt;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(8, 63, 166);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+.at {
+  position: absolute;
+  left: 1%;
+  top: 710px;
+  font-family: ff-meta-web-pro, sans-serif;
+  font-size: 100pt;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(8, 63, 166);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
 }
 .left {
   margin-left: 13%;
